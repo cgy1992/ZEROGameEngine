@@ -1,0 +1,100 @@
+<Level>
+  <Resources>
+    <VertexShader>../Assets/Shaders/NewShaders/ZeroTexturing.fx</VertexShader>
+    <PixelShader>../Assets/Shaders/NewShaders/ZeroTexturing.fx</PixelShader>
+    <Texture>../Assets/Images/grass.jpg</Texture>
+    <Texture>../Assets/Images/metal.jpg</Texture>
+	<Texture>../Assets/Images/SkyBoxTexturePark.jpg</Texture>
+  </Resources>
+  <GameObjects>
+    <GameObject name="Cube">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">5</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cube2">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">6</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cube3">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">7</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cube4">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">8</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cube5">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">9</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cube6">
+      <Path>../Assets/Data/TestGameObject.xml</Path>
+      <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">10</Float>
+          <Float name="y">0</Float>
+          <Float name="z">5</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+    <GameObject name="Cylinder">
+      <Path>../Assets/Data/TestGameObject2.xml</Path>
+    </GameObject>
+	<GameObject name="Cone">
+      <Path>../Assets/Data/Cone.xml</Path>
+	  <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">2</Float>
+          <Float name="y">2</Float>
+          <Float name="z">2</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+	<GameObject name="Sphere">
+      <Path>../Assets/Data/Sphere.xml</Path>
+	  <TransformComponent>
+        <Vector3 name="Position">
+          <Float name="x">-5</Float>
+          <Float name="y">0</Float>
+          <Float name="z">10</Float>
+        </Vector3>
+      </TransformComponent>
+    </GameObject>
+	<GameObject name="SkySphere">
+      <Path>../Assets/Data/SkySphereGO.xml</Path>
+    </GameObject>
+    <GameObject name="MainCamera">
+      <Path>../Assets/Data/MainCamera.xml</Path>
+    </GameObject>
+  </GameObjects>
+</Level>

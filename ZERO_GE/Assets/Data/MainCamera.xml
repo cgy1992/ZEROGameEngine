@@ -1,0 +1,34 @@
+<GameObject>
+  <Components>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Transform name="TransformBindIndex">
+        <Int>0</Int>
+      </Transform>
+    </TransformComponent>
+    <CameraComponent>
+		  <Camera name="CameraMode">
+			  <String>Perspective</String> 
+		  </Camera>
+		  <Camera name="FOV">
+			  <Float>0.7854</Float>
+		  </Camera>
+		  <Camera name="NearPlane">
+			  <Float>1</Float>
+		  </Camera>
+		  <Camera name="FarPlane">
+			  <Float>1000</Float>
+		  </Camera>
+		  <Camera name="IsMain">
+			  <Bool>1</Bool>
+		  </Camera>
+      <Camera name="CameraBindIndex">
+        <Int>1</Int>
+      </Camera>
+    </CameraComponent>
+  </Components>
+</GameObject>

@@ -1,0 +1,5 @@
+float depth = DepthMap.Sample(SamplerLinear, input.texcoord).r;
+float near = ;
+float far = ;
+float linearDepth = (2.0f * near) / (far + near - depth * (far - near));
+return lineardepth;

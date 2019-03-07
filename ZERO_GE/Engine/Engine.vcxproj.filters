@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{1c905652-fc04-4d26-8494-124b9ee996f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{bad4f9d1-a5cd-4eac-8ea9-5c6d9ca4fd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Components">
+      <UniqueIdentifier>{cc61c5f4-3400-43f7-81c7-c9d636832f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Components">
+      <UniqueIdentifier>{62ed139d-1207-4758-afe7-75ee31675d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Meta">
+      <UniqueIdentifier>{abbf8e2d-e5ae-406f-b478-4cb85d6f8981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Meta">
+      <UniqueIdentifier>{e15a6a8a-f08d-4290-bed0-27a3a0dbf7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\ResourceManagers">
+      <UniqueIdentifier>{5d20c3c9-fd78-4956-8b3c-94e56aad9140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ResourceManagers">
+      <UniqueIdentifier>{160f8e4f-af17-4603-a083-572aafd63a88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Component.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameApp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObject.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObjectFactory.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ColliderComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TransformComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\XMLReader.cpp" />
+    <ClCompile Include="Src\MetaRegistration.cpp" />
+    <ClCompile Include="Src\World.cpp" />
+    <ClCompile Include="Src\PixelShaderResourceManager.cpp">
+      <Filter>Src\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResourceManager.cpp">
+      <Filter>Src\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureResourceManager.cpp">
+      <Filter>Src\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VertexShaderResourceManager.cpp">
+      <Filter>Src\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PrimitiveMeshResourceManager.cpp">
+      <Filter>Src\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CameraComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshRendererComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameObjectFactory.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Component.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Engine.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameApp.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameObject.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ColliderComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TransformComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\XMLReader.h" />
+    <ClInclude Include="Inc\MetaRegistration.h" />
+    <ClInclude Include="Inc\World.h" />
+    <ClInclude Include="Inc\PixelShaderResourceManager.h">
+      <Filter>Inc\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ResourceManager.h">
+      <Filter>Inc\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TextureResourceManager.h">
+      <Filter>Inc\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VertexShaderResourceManager.h">
+      <Filter>Inc\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\PrimitiveMeshResourceManager.h">
+      <Filter>Inc\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TextureComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CameraComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MeshRendererComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

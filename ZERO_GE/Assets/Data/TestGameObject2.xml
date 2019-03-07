@@ -1,0 +1,48 @@
+<GameObject>
+  <Components>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Transform name="TransformBindIndex">
+        <Int>0</Int>
+      </Transform>
+    </TransformComponent>
+	<ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">1</Float>
+        <Float name="y">1</Float>
+        <Float name="z">1</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">1</Float>
+        <Float name="g">1</Float>
+        <Float name="b">0</Float>
+        <Float name="a">1</Float>
+      </Color>
+	</ColliderComponent>
+    <TextureComponent>
+		  <Texture name="Name">
+			  <String>metal</String> 
+		  </Texture>
+		  <Texture name="BindIndex">
+			  <Int>0</Int>
+		  </Texture>
+    </TextureComponent>
+    <MeshRendererComponent>
+      <Mesh name ="MeshName">
+        <String>Cylinder</String>
+      </Mesh>
+      <Mesh name ="ShaderName">
+        <String>ZeroTexturing</String>
+      </Mesh>
+    </MeshRendererComponent>
+  </Components>
+</GameObject>

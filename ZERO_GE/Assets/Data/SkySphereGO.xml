@@ -1,0 +1,35 @@
+<GameObject>
+  <Components>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Transform name="TransformBindIndex">
+        <Int>0</Int>
+      </Transform>
+	  <Vector3 name="Scale">
+        <Float name="x">200</Float>
+        <Float name="y">200</Float>
+        <Float name="z">200</Float>
+      </Vector3>
+    </TransformComponent>
+    <TextureComponent>
+		  <Texture name="Name">
+			  <String>SkyBoxTexturePark</String> 
+		  </Texture>
+		  <Texture name="BindIndex">
+			  <Int>0</Int>
+		  </Texture>
+    </TextureComponent>
+    <MeshRendererComponent>
+      <Mesh name ="MeshName">
+        <String>SkySphere</String>
+      </Mesh>
+      <Mesh name ="ShaderName">
+        <String>ZeroTexturing</String>
+      </Mesh>
+    </MeshRendererComponent>
+  </Components>
+</GameObject>
